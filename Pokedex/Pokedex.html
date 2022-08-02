@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEX</title>
+    <link rel="stylesheet" href="style/pokedex.css">
+    <script src="js/pokedex.js"></script>
+    <script src="https://code.jquery.com/jquery-1.6.4.js"></script>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Pokedex Search</a>
+        <a href="#news">All Pokemons</a>
+    </div>
+    <div id="principal">
+        <div id="pokedextitle">
+            <p>POKEDEX</p>
+        </div>
+        <div id="botoes">
+            <input type="text" id="txtBusca" placeholder="..." />
+            <button id="btnbusca" alt="Buscar" onclick="fetchKantoPokemon()">Procurar</button>
+        </div>
+    </div>
+    <div id="pokedex">
+        <div id="dex">
+            <div id="fotopokemon">
+                <img id="imagem">
+            </div>
+            <div id="numeronome">
+                <div id="numero">
+                    <p id="numeroaqui">#</p>
+                </div>
+                <div id="nomepokemon">
+                    <p id="nomeaqui">Nome: </p>
+                </div>
+                <div id="natures">
+                    <p id="naturesaqui"></p>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
