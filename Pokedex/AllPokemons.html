@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEX</title>
+    <link rel="stylesheet" href="style/allpokemons.css">
+    <script src="js/allpokemons.js"></script>
+    <script src="https://code.jquery.com/jquery-1.6.4.js"></script>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="Pokedex.html">Pokedex Search</a>
+        <a href="AllPokemons.html">All Pokemons</a>
+    </div>
+    <div id="principal">
+        <div id="pokedextitle">
+            <p>POKEDEX</p>
+        </div>
+        <div id="comboBoxHere">
+            <label for="combo">Escolha uma região:</label>
+            <select name="combo" id="combo">
+                <option value="kanto">Kanto</option>
+                <option value="Johto">Johto</option>
+                <option value="Hoenn">Hoenn</option>
+                <option value="Sinnoh">Sinnoh</option>
+                <option value="Unova">Unova</option>
+                <option value="Kalos">Kalos</option>
+                <option value="Alola">Alola</option>
+                <option value="Galar">Galar</option>
+            </select>
+        </div>
+    </div>
+    <div id="pokedex">
+        <ul data-js="pokedex" class="pokedex">
+        </ul>
+
+    </div>
+
+</body>
+
+</html>
