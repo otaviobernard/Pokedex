@@ -8,34 +8,30 @@ body {
 
 #pokedextitle {
     display: inline-block;
+    margin-left: 5%;
 }
 
 #pokedextitle p {
     padding: 10px;
     text-align: left;
     font-family: Ketchum, Helvetica, sans-serif;
-    font-size: 50px;
+    font-size: 70px;
     color: #ffffff;
 }
 
 #principal {
-    background-color: #e22a2a;
-    margin-left: 18%;
-    margin-right: 18%;
-    margin-bottom: 1%;
+    background-color: #1f1f1f;
+    margin-left: 5%;
+    margin-right: 5%;
     border-radius: 5px 5px;
-    border: solid;
-    border-color: #772626;
 }
 
 #pokedex {
-    background-color: rgb(35, 37, 206);
+    background-color: #1f1f1f;
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 5px 5px;
     height: fit-content;
-    border: solid;
-    border-color: #2e2677;
     text-align: center;
 }
 
@@ -74,51 +70,18 @@ input {
     border-color: #e22a2a;
 }
 
-#dex {
-    margin-left: 15%;
-    margin-right: 10%;
-    margin: 5%;
-}
-
-#fotopokemon {
-    width: 150px;
-    height: 150px;
-    float: left;
-    margin-top: 1%;
-    display: inline-block;
-    border-radius: 5px 5px;
-    background-color: white;
-}
-
-#fotopokemon img {
-    width: 140px;
-    padding: 0%;
-}
-
-#numero {
-    margin-bottom: 20px;
-}
-
-#numeronome {
-    width: 500px;
-    display: inline-block;
-    margin-left: 15px;
-    background-color: white;
-    border-radius: 5px 5px;
-    padding-left: 10px;
-    margin-top: 1%;
-}
-
 p {
     font-family: Ketchum, Helvetica, sans-serif;
     font-size: larger;
 }
 
 .topnav {
-    background-color: rgb(32, 34, 179);
+    background-color: #1f1f1f;
     overflow: hidden;
     margin-bottom: 2%;
     border-radius: 4px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .topnav a {
@@ -143,12 +106,10 @@ p {
 ul {
     list-style-type: none;
     padding: 2%;
-    border-color: #e22a2a;
     display: inline-block;
 }
 
 li {
-    background-color: rgb(255, 176, 111);
     text-align: center;
     border-radius: 5px;
     border-color: black;
@@ -161,6 +122,7 @@ li {
 .card {
     display: inline-block;
     width: 250px;
+    height: 290px;
 }
 
 #comboBoxHere {
@@ -168,7 +130,103 @@ li {
     width: 300px;
     margin: 20px;
     float: right;
-    background-color: rgb(255, 176, 111);
+    background-color: rgb(204, 190, 190);
     padding: 2px;
     border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 50px;
+}
+
+#comboBoxHere select {
+    border-radius: 5px;
+}
+
+#comboBoxHere button {
+    border-radius: 5px;
+    border-width: 1px;
+    width: 70px;
+    height: 25px;
+    font-size: large;
+}
+
+#comboBoxHere button:hover {
+    background-color: #c7afaf;
+}
+
+li img {
+    width: 120px;
+}
+
+ul :hover {
+    background-color: #382f2f;
+    color: white;
+}
+
+.dark {
+    background-color: #c161ce;
+}
+
+.steel {
+    background-color: #f4f4f4;
+}
+
+.fire {
+    background-color: #FDDFDF;
+}
+
+.grass {
+    background-color: #DEFDE0;
+}
+
+.electric {
+    background-color: #FCF7DE;
+}
+
+.water,
+.ice {
+    background-color: #DEF3FD;
+}
+
+.ground {
+    background-color: #f4e7da;
+}
+
+.rock {
+    background-color: #d5d5d4;
+}
+
+.fairy {
+    background-color: #fceaff;
+}
+
+.poison {
+    background-color: #c4add6;
+}
+
+.bug {
+    background-color: #f8d5a3;
+}
+
+.dragon {
+    background-color: #97b3e6;
+}
+
+.psychic {
+    background-color: #eaeda1;
+}
+
+.flying {
+    background-color: #F5F5F5;
+}
+
+.fighting {
+    background-color: #E6E0D4;
+}
+
+.ghost {
+    background-color: #ebc2c2;
+}
+
+.normal {
+    background-color: #F5F5F5;
 }
